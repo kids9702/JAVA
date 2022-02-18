@@ -1,0 +1,21 @@
+-----------------------
+C05Car - 클래스 자료형
+-----------------------
+Owner:String
+Speed:int
+fuel:int
+
+Accel():void -> "가속합니다."
+Break():void -> "감속합니다."
+ShowInfo():void ->"owner,speed,fuel"출력
+
+-----------------------
+C05Main - 구현 위치
+-----------------------
+C02Car JungsCar = new C02Car();
+JungsCar.owner = "홍길동";
+JungsCar.speed = 0;
+JungsCar.fuel = 100;
+JungsCar.Accel();JungsCar.Accel();JungsCar.Accel();
+JungsCar.Break();
+JungsCar.ShowInfo();
